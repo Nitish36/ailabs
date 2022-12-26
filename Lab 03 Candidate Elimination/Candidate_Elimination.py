@@ -1,5 +1,5 @@
 import csv
-pd = open('datasets/trainingexamples.csv')
+pd = open('trainingexamples.csv')
 with pd  as csvFile:
     data = [tuple(line) for line in csv.reader(csvFile)]
 data
